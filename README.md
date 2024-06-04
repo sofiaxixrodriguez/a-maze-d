@@ -10,7 +10,7 @@ The description will contain:\
 - Tunnels linking each room\
 
 \
-EXAMPLE:\
+EXAMPLE INPUT:\
 ./amazed < labyrinth\
 #number_of_robots\
 3\
@@ -25,5 +25,13 @@ EXAMPLE:\
 0-2\
 2-3\
 3-1\
+\
+EXAMPLE OUTPUT:\
+#moves\
+P1-2\
+P1-3 P2-2\
+P1-1 P2-3 P3-2\
+P2-1 P3-3\
+P3-1\
 \
 85% passed
